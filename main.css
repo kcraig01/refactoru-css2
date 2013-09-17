@@ -1,0 +1,115 @@
+body {
+	background-color: aliceblue;
+	color:black;
+	font-family: Lucida Console;
+	font-style:normal;
+	font-weight:normal;
+
+}
+h1 {
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+	text-decoration: underline;
+}
+
+.Navlist{
+	width: 850px;
+	padding-left: 60px;
+	margin: auto;
+}
+
+.Navlist ul li
+{
+	float: left;
+	margin: 0 60px;
+	text-transform: uppercase;
+	width: 150px;
+	background: url('road2.jpg') 0px 0px no-repeat;
+	text-align: center;
+	
+}
+
+.Navlist ul{
+	margin: 0px;
+	list-style-type: none;
+	list-style-position: inherit;
+
+}
+
+img
+{
+	display: block;
+	background: #e8eae9;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#c6c9cc;
+  /*shorthand: border: 1px solid #c6c9cc;;*/
+  	margin: 8px 0 0 20px;
+  	padding: 4px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	z-index: 1;
+}
+
+section p {
+	text-align: center;
+	font-size: 9px;
+}
+.alone{
+	list-style-type: square;
+	list-style-position: inside;
+	list-style-image: url('x.jpg');
+}
+.Boxes {
+	overflow: hidden;
+}
+
+
+.Main, .Main2, .Food, .Routes
+{
+	border: 6px solid #ccc;
+	height: 600px;
+	width: 600px;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	white-space: normal;
+} 
+
+.Main, .Routes{
+	float: left;
+}
+.Main2{
+	float: left;
+	font-size: 12pt;
+	text-indent: 20px ;
+	letter-spacing: 1px;
+}
+
+.Routes{
+	background: url ('route2.jpg') no-repeat;
+	background-image: url('route2.jpg');
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+	
+.form{
+	position: relative;
+	top:100px;
+	right:10px;
+	bottom:30px;
+	left:10px;
+	visibility: visible;
+}
+
+.nottodo{
+	border-collapse: collapse;
+	border-spacing:10px 50px;
+}
+
+footer {
+	clear: both;
+}
+
